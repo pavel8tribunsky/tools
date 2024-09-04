@@ -1,6 +1,9 @@
-﻿# Before using this script install packages:
+﻿# Before using this script please resolve it's dependencies:
 # - VXI-11          pip install python-vxi11
 # - Pillow          pip install Pillow
+#
+# Rigol DHO900 series digital oscilloscope programming guide:
+# https://beyondmeasure.rigoltech.com/acton/attachment/1579/f-f798be30-18ec-4846-9ffe-40b125f49133/0/-/-/-/-/DHO800900_ProgrammingGuide_EN.pdf
 
 import sys
 import vxi11
